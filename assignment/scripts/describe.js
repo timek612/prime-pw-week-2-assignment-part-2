@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We delare the name variable and set it string 'Dane'
+// We check if name is equal to 'Mary', which will have an output of 'Hi, Mary!'
+// name is not 'Mary' so the else statement executes
+// console.log outputs 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we declare variables secret and code
+// code is number 123
+// if code is equal to 123, secret becomes equal to 'super' and code multiples by 2
+// if code is greater than 250, variable secret becomes 'duper'
+// console.log outputs 'super' 
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variables isStudent, age, and zip are delcared.
+// isStudent is true, age is 34, and zip is 55407.
+// These variables are sent through an if, else if, else statement which determines a correct output. 
+// Second else if statement is executed.
+// console.log outputs 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,12 +132,17 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne is supposed to be blue and colorTwo is supposed to be red
+// let colorOne = 'blue';
+// let colorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// We need to also set colorTwo to 'purple'
 if (mix === true) {
   colorOne = 'purple';
+  // colorTwo = 'purple';
 }
 */
 
@@ -146,7 +153,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// we need to use two ampersands her instead of pipes
+// if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +167,14 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// we need age to be greater than or equal to minAge, not what is displayed. Also for the console.logs to be flipped.
+// FIX: if(age >= minAge){
+//console.log('enter');
+//}
+//else {
+  //console.log('no entry');
+//}
 
 if(minAge <= age) {
   console.log('no entry');
